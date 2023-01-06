@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-size: 25px;
+}
+/* ........intro............. */
+.intro-container{
+    height: 100vh;
+    background-image: url(../images/donation3.jpg),linear-gradient(rgba(0, 0, 0, 0.137),rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-blend-mode:overlay;
+    
+}
+.intro-items{
+padding: 300px 350px;
+text-align: center;
+    
+}
+.intro-title{
+    font-weight: 700;
+    font-size: 85px;
+    
+}
+
+.intro-description{
+    padding: 40px 200px;
+}
+
+.donate-now-btn{
+    border-radius: 5px;
+    border: 0;
+    padding: 25px 40px;
+    background: rgb(241, 107, 92);
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 80px
+}
