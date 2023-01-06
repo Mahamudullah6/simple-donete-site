@@ -5,6 +5,10 @@
 p{
     font-size: 25px;
 }
+h3{
+    font-size: 60px;
+    width: 700;
+}
 /* ........intro............. */
 .intro-container{
     height: 100vh;
@@ -38,4 +42,61 @@ text-align: center;
     color: #FFFFFF;
     font-size: 25px;
     height: 80px
+}
+
+/* ...............donate today................... */
+
+.donate-amount-section{
+    margin: 200px 455px 0px;
+    text-align: center;
+    height: 100vh;
+}
+.donate-amount-description{
+    padding: 40px 100px;
+    color: #757575;
+}
+
+.amount-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+.amount-list li{
+    list-style: none;
+    color:gray;
+    padding: 48px;
+    background-color: lightgray;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    
+}
+
+.amount-list li:hover{
+    border: 2px solid rgb(241, 107, 92);
+    background-color: rgb(252, 211, 207);
+    border-radius: 5px;
+    color: rgb(241, 93, 76);
+}
+
+.other-amount{
+
+    margin: 80px 0px 0px 40px;
+}
+
+.other-amount input{
+    border: none;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(185, 182, 182);
+}
+
+.other-amount button{
+    margin-top: 40px;
 }
